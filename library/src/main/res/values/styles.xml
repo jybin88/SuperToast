@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--toast 样式-->
+    <style name="super_toast_text_style">
+        <item name="android:layout_width">@dimen/super_toast_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/super_toast_bg_shape</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">@dimen/super_toast_text_size</item>
+        <item name="android:drawablePadding">4dp</item>
+        <item name="android:paddingTop">@dimen/super_toast_vertical_single_line_padding</item>
+        <item name="android:paddingBottom">@dimen/super_toast_vertical_single_line_padding
+        </item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">@dimen/super_toast_horizontal_padding</item>
+        <item name="android:paddingRight">@dimen/super_toast_horizontal_padding</item>
+    </style>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--toast 配置 begin-->
+    <dimen name="super_toast_bottom_padding">64dp</dimen>
+    <dimen name="super_toast_width">297dp</dimen>
+    <dimen name="super_toast_vertical_single_line_padding">10dp</dimen>
+    <dimen name="super_toast_vertical_multi_line_padding">5dp</dimen>
+    <dimen name="super_toast_horizontal_padding">16.5dp</dimen>
+    <dimen name="super_toast_text_size">16sp</dimen>
+    <!--toast 配置 end-->
+</resources>

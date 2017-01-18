@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom|center_horizontal"
+    android:paddingBottom="@dimen/super_toast_bottom_padding"
+    >
+
+    <TextView
+        android:id="@+id/tv_toast_message"
+        style="@style/super_toast_text_style"/>
+
+</LinearLayout>
