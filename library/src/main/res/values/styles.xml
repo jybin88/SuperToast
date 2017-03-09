@@ -2,8 +2,9 @@
 <resources>
     <!--toast 样式-->
     <style name="super_toast_text_style">
-        <item name="android:layout_width">@dimen/super_toast_width</item>
+        <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxWidth">@dimen/super_toast_width</item>
         <item name="android:background">@drawable/super_toast_bg_shape</item>
         <item name="android:textColor">#ffffff</item>
         <item name="android:textSize">@dimen/super_toast_text_size</item>

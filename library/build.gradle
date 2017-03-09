@@ -26,4 +26,6 @@ android {
 dependencies {
     compile "com.android.support:support-annotations:$vSupportLib"
     compile "com.android.support:support-v4:$vSupportLib"
+    compile "io.reactivex:rxandroid:$vRxAndroid"
+    compile "io.reactivex:rxjava:$vRxJava"
 }
