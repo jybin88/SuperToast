@@ -2,6 +2,7 @@ package io.github.toast;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.Toast;
 
@@ -24,7 +25,14 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.btn_super_toast).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View pView) {
-                ToastUtil.getInstance().toast(MainActivity.this, "super toast");
+                ToastUtil.show(MainActivity.this, "super toast");
+            }
+        });
+
+        findViewById(R.id.btn_super_toast_center).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View pView) {
+                ToastUtil.show(MainActivity.this, "super toast", Gravity.CENTER);
             }
         });
     }
